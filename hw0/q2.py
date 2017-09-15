@@ -13,6 +13,6 @@ def main(argv):
             pixels_output[i,j] = ( int(pixels_input[i,j][0]/2), int(pixels_input[i,j][1]/2), int(pixels_input[i,j][2]/2) )
 
     #img_output.show()
-    img_output.save('Q2.jpg')
+    img_output.save('Q2.png’)
 if __name__ == '__main__':
     main(sys.argv[1:])
