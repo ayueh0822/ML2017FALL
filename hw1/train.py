@@ -4,7 +4,7 @@ import numpy as np
 np.set_printoptions(suppress=True)
 
 training_time = 100000
-learning_rate = 1e-6
+learning_rate = 5e-9
 
 data_table = pd.read_csv('train.csv', encoding='Big5')
 data_hour = []

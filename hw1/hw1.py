@@ -20,7 +20,7 @@ def main(argv):
     
     x_list = []
     feature_select = [0,7,8,9,11]
-    feature_select2 = [8,9,]
+    feature_select2 = [8,9]
     previous_hour = 9
     # feature_select = [9]
     # feature_select2 = []
